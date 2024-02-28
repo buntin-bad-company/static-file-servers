@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "SWjqZ0NE4Vfk2l3mB7Lta13EhmmarAHy8xdsHywc2cY=",
+  "Source": "static_file_servers",
+  "BasePath": "_content/static_file_servers",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

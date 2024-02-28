@@ -1,6 +1,6 @@
 {
   "name": "static_file_servers",
-  "module": "src/bun.ts",
+  "module": "builder.ts",
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest"
