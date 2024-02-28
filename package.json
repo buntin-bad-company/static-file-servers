@@ -2,6 +2,10 @@
   "name": "static_file_servers",
   "module": "builder.ts",
   "type": "module",
+  "scripts":{
+    "build":"bun run builder.ts",
+    "build:cs":"bun run src/builders/cs-builder.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },

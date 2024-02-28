@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("static_file_servers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+237ec9ef0c557d0684fdef509401a0a09f781af4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69adbe043c6745008a9bc2c5a4466505064c019d")]
 [assembly: System.Reflection.AssemblyProductAttribute("static_file_servers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("static_file_servers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

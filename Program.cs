@@ -4,7 +4,6 @@ using System;
 using System.IO;
 using System.Runtime.InteropServices;
 
-// WebApplicationOptions を使用して、ContentRoot と WebRoot を設定
 var options = new WebApplicationOptions
 {
   ContentRootPath = Directory.GetCurrentDirectory(),
@@ -14,14 +13,14 @@ var options = new WebApplicationOptions
 
 var builder = WebApplication.CreateBuilder(options);
 
-builder.Services.AddDirectoryBrowser(); // ディレクトリブラウジングを有効にする
+builder.Services.AddDirectoryBrowser();
 
 var app = builder.Build();
 
-app.UseStaticFiles(); // 静的ファイルの使用を有効にする
-app.UseDirectoryBrowser(); // ディレクトリブラウジングの使用を有効にする
+app.UseStaticFiles();
+app.UseDirectoryBrowser();
 
-var port = args.Length > 0 ? args[0] : "3000"; // ポートの設定
+var port = args.Length > 0 ? args[0] : "3000";
 app.Urls.Add($"http://localhost:{port}");
 
 try

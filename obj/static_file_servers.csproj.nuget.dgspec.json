@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Buntin-LArchel/git/static_file_servers/static_file_servers.csproj": {}
+    "/Users/Buntin-LArchel/git/static-file-servers/static_file_servers.csproj": {}
   },
   "projects": {
-    "/Users/Buntin-LArchel/git/static_file_servers/static_file_servers.csproj": {
+    "/Users/Buntin-LArchel/git/static-file-servers/static_file_servers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Buntin-LArchel/git/static_file_servers/static_file_servers.csproj",
+        "projectUniqueName": "/Users/Buntin-LArchel/git/static-file-servers/static_file_servers.csproj",
         "projectName": "static_file_servers",
-        "projectPath": "/Users/Buntin-LArchel/git/static_file_servers/static_file_servers.csproj",
+        "projectPath": "/Users/Buntin-LArchel/git/static-file-servers/static_file_servers.csproj",
         "packagesPath": "/Users/Buntin-LArchel/.nuget/packages/",
-        "outputPath": "/Users/Buntin-LArchel/git/static_file_servers/obj/",
+        "outputPath": "/Users/Buntin-LArchel/git/static-file-servers/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/Buntin-LArchel/.nuget/NuGet/NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FcNerEGxisVb99NS5j+VT3zB3B60fxrbcdjgOpO07UFA9pGImTAvj2twdX/AKxkHNUXGQmUIATOJ2xKf/ixb7Q==",
+  "dgSpecHash": "lDjj/OSgFUf1parm2B44rvtuga25ds9qYKhojL6PP3jm4U3SKYCw7eyxWJGo/zCXzKlNBIUhLCvv8GBQHnZUFA==",
   "success": true,
-  "projectFilePath": "/Users/Buntin-LArchel/git/static_file_servers/static_file_servers.csproj",
+  "projectFilePath": "/Users/Buntin-LArchel/git/static-file-servers/static_file_servers.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
