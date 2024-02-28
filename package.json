@@ -1,0 +1,11 @@
+{
+  "name": "static_file_servers",
+  "module": "src/bun.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
