@@ -6,10 +6,7 @@ const publishDir = './publish';
 const binName = 'static_file_servers'; //undefined ok
 
 const cs_builder = async (): Promise<BuildInfo> => {
-  const compileCSProject = async () =>
-    $`dotnet publish -c Release`;
-
-  const compileResult = await compileCSProject();
+  const compileResult = await $`dotnet publish -c Release`;
 
   if (compileResult.exitCode !== 0) {
     console.error('Failed to compile C# project');
@@ -21,6 +18,8 @@ const cs_builder = async (): Promise<BuildInfo> => {
 
   const binPath = path.join(publishDir, binName);
   const absBinPath = path.resolve(binPath);
+  console.log('binPath:', binPath);
+  console.log('absBinPath:', absBinPath);
   return {
     binPath,
     absBinPath,

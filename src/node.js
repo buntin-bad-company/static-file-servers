@@ -1,14 +1,14 @@
+#!/usr/bin/env node
+
 import express from 'express';
+import serveIndex from 'serve-index';
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.argv[2] ? parseInt(process.argv[2], 10) : 3000;
 
-app.use(express.static('public')); 
-
-app.use((req, res, next) => {
-  res.status(404).send('Sorry, page not found!');
-});
+app.use(express.static(process.cwd()));
+app.use(serveIndex(process.cwd(), { icons: true }));
 
 app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
+  console.log(`Server running at http://localhost:${port}/`);
 });
