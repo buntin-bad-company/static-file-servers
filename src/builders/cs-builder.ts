@@ -7,7 +7,7 @@ const binName = 'static_file_servers'; //undefined ok
 
 const cs_builder = async (): Promise<BuildInfo> => {
   const compileCSProject = async () =>
-    $`dotnet publish -c Release -o ${publishDir}`;
+    $`dotnet publish -c Release`;
 
   const compileResult = await compileCSProject();
 

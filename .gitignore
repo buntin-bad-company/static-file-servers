@@ -179,3 +179,5 @@ bin/*
 
 publish/*
 !publish/.gitkeep
+
+obj
