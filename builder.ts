@@ -8,7 +8,9 @@ import {
   nodejs_builder,
   bun_builder,
   deno_builder,
-  php_builder
+  php_builder,
+  python_builder,
+  ruby_builder,
 } from './src/builders/scriptslike-builder';
 
 /* 環境変数 */
@@ -39,7 +41,17 @@ const langMap: LangEntry[] = [
     name: 'PHP',
     short: 'php',
     builder: php_builder,
-  }
+  },
+  {
+    name: 'Python',
+    short: 'py',
+    builder: python_builder,
+  },
+  {
+    name: 'Ruby',
+    short: 'rb',
+    builder: ruby_builder,
+  },
 ];
 const repoBinDir = './bin/forusers';
 
